@@ -38,6 +38,7 @@ The pipelines of pose estimation include animal detection (bboxes or masks) and 
   ```
   sh shell_cmd/video_test_with_det.sh
   ```
+### Tips
 We also provide a mouse dataset with coco format, and corresponding finetuned models for users. Please click this [link](https://pan.baidu.com/s/1uzTnMlZ06YOg8kqPXfYaxw?pwd=xmsl) (code:xmsl)
 
 
