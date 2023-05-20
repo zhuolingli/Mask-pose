@@ -38,10 +38,18 @@ The pipelines of pose estimation include animal detection (bboxes or masks) and 
   ```
   sh shell_cmd/video_test_with_det.sh
   ```
+We also provide a mouse dataset with coco format, and corresponding finetuned models for users. Please click this [link](https://pan.baidu.com/s/1uzTnMlZ06YOg8kqPXfYaxw?pwd=xmsl) (code:xmsl)
+
+
+
+
 ### Visualization
 Users can utilize `utils/parse_results.py` to parse the results of pose estimation, draw the animal's movement trajectory, and analyzes the time-sequence motion state. 
 ![image](https://github.com/zhuolingli/Mask-pose/assets/67094418/6e750764-31c3-45f6-af4f-d67d51a40262)
   
+ 
+ 
+ 
  
 ## BibTeX
 
