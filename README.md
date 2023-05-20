@@ -16,7 +16,7 @@ This is an open-source tool for animal pose estimation based on [MMdetection](ht
 - Pytorch version: 1.9.1
 ### Data Preparation
 - Please use [Labelme](https://github.com/wkentaro/labelme) to label data. In Labelme, create “Polygons” and “Points” for annonations of masks and key points, respectively.
-- The file format of Labelme is incompatible with the feeding format **(coco)** of MMpose and MMdetection. Run `utils/labelme2coco.py` to convert the format. 
+- The file format of Labelme is incompatible with the feeding format **(coco)** of MMpose and MMdetection. Run `utils/labelme2coco.py` to convert the format and put them in `./data`. 
   ```
   python utils/labelme2coco.py --input_dir {labelme_data_dir} --output_dir data/coco --labels labels.txt
   ```
